@@ -8,6 +8,6 @@ void func(){
 
 int main(){
   thread t1{func};
-  cout << "deliberately need a conflict master" << endl;
+  cout << "deliberately need a conflict r1" << endl;
   t1.join();
 }

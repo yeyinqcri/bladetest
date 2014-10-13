@@ -8,6 +8,6 @@ void func(){
 
 int main(){
   thread t1{func};
-  cout << "test" << endl;
+  cout << "deliberately need a conflict" << endl;
   t1.join();
 }

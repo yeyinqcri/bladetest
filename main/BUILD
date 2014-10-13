@@ -1,5 +1,5 @@
 cc_binary(
   name="main",
   srcs = ["main.cpp"],
-  deps = ['//foo:foo'],
+  deps = ['//foo:foo','#pthread'],
 )

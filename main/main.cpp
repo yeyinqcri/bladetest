@@ -8,7 +8,7 @@ void func(){
 
 int main(){
   thread t1{func};
-  cout << "deliberately need a conflict r1" << endl;
+  cout << "deliberately need a conflict r3" << endl;
   cout << "still cannot work"<<endl;
   t1.join();
 }
